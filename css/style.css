@@ -68,7 +68,7 @@ body{
  }
 
 .text{
-    padding-top: 120px;
+    padding-top: 140px;
     padding-bottom: 48px;
     text-align: center;
     font-family: sans-serif;
@@ -103,4 +103,32 @@ td,th{
 #data{
     font-family: monospace;
     font-size: 16px;
+}
+
+.footer{
+    display: flex;width: 100%; gap: 40px; text-align: center;
+    justify-content: space-between;
+    
+    
+}
+footer{
+    height: 160px;
+    background-color: #221B1D;
+    color: white;
+    padding: 24px;
+    padding-inline: 220px;
+    font-family: monospace;
+    font-size: 16px;
+
+    
+}
+
+.imagesection{
+    padding: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer{
+        flex-direction: column;
+    }
 }
