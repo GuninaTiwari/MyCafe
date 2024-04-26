@@ -124,8 +124,14 @@ footer{
 }
 
 .imagesection{
-    padding: 24px;
+    margin: 150px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
 
 @media only screen and (max-width: 600px) {
     .footer{
